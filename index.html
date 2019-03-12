@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html class="w-100">
+    <head>
+        <title>Portfolio UIkit</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/uikit.min.css" />
+        <link rel="stylesheet" href="css/styles.css" />
+        <script src="js/uikit.min.js"></script>
+        <script src="js/uikit-icons.min.js"></script>
+    </head>
+    <body class="w-100">
+		
+		<div class="uk-visible-toggle uk-light" tabindex="-1" uk-height-viewport uk-slideshow="autoplay-interval: 5000; animation: fade; autoplay: true">
+			<ul class="uk-slideshow-items" uk-height-viewport>
+				<li class="uk-cover-container" uk-height-viewport>
+					<img src="images/1.jpg" alt="" uk-cover>
+				</li>
+				<li class="uk-cover-container" uk-height-viewport>
+					<img src="images/2.jpg" alt="" uk-cover>
+				</li>
+				<li class="uk-cover-container" uk-height-viewport>
+					<img src="images/3.jpg" alt="" uk-cover>
+				</li>
+				<li class="uk-cover-container" uk-height-viewport>
+						<img src="images/4.jpg" alt="" uk-cover>
+					</li>
+			</ul>
+		</div>
+
+		<div style="background: transparent;" class=" uk-flex uk-position-top" uk-height-viewport>
+			<div class="uk-position-top">
+				<nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+					<div class="uk-navbar-right">
+						<a class="uk-navbar-toggle" uk-navbar-toggle-icon href="#nav"></a>
+						<ul id="nav" class="uk-navbar-nav">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">About Us</a></li>
+							<li>
+								<a href="#">Contact</a>
+								<div class="uk-navbar-dropdown">
+									<ul class="uk-nav uk-navbar-dropdown-nav">
+										<li class="uk-active"><a href="#">Active</a></li>
+										<li><a href="#">Item</a></li>
+										<li class="uk-nav-header">Header</li>
+										<li><a href="#">Item</a></li>
+										<li><a href="#">Item</a></li>
+										<li class="uk-nav-divider"></li>
+										<li><a href="#">Item</a></li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+			<button style="z-index: 1;" class="custom-button uk-button uk-button-secondary uk-margin-auto uk-margin-auto-vertical">GET STARTED</button>
+		</div>
+    </body>
+</html>
